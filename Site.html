@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+    <title>Who's that pokemon?</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css"> 
+  </head>
+
+  <body background="images/bg.gif">
+    <div id="container">
+
+      <div id="block1"> 
+        <div id="header_right"><img id='logo' src="img/poke.jpg">  </img>
+          <ul class="nonDropDown">
+            <li id="navBar"><a id="active">Home  </a> </li>
+            <li id="navBar"><a href="#">Evolutions</a></li>
+            <li id="navBar"><a href="#" >Types</a></li>
+            <li id="navBar"><a href="#" >Attacks</a></li>       
+            <li id="menu"><a href="#" >Items</a></li>
+            <li id="navBar"><a href="#">More</a> </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="Story">
+        <img id="header_left" src="img/charmander.gif"></img>
+        <p><span id="a1">    Charmander </span><br><span id="a2"> type: Fire</span></p>  
+        <p> <strong>About him</strong><br>
+          He is a starter pokemon. And one of the bests.</p>
+        <p> He can win mainly against plants.</p>
+        <p> <strong> DATA</strong><br>
+       Height	0.6 m (2′00″)             Weight	8.5 kg (18.7 lbs)</p>
+       <input id="submit" class="read" type="submit" name="submit" value="read more"></input>
+      </div>
+
+      <div class="Story">
+        <img id="header_left" src="img/charmeleon.gif">
+        <p>  
+          <span id="a1">Charmeleon </span>
+          <br>
+          <span id="a2"> type: Fire</span>
+        </p>  
+        <p> 
+          <strong>About him</strong>
+          <br>
+          He is the evolution of Charmander. 
+        </p>
+       <p> He can win mainly against plants.</p>
+        <p> 
+          <strong>DATA</strong>
+          <br>
+          Height	1.1 m (3′07″) Weight	19.0 kg (41.9 lbs)
+        </p> 
+
+        <input id="submit" class="read" type="submit" name="submit" value="read more"></input>
+      </div>
+
+      <div class="Story">
+        <img id="header_left" src="img/charizard.gif">
+        <p>
+          <span id="a1">    Charizard </span>
+          <br>
+          <span id="a2"> type: Fire and Flying</span>
+        </p>  
+
+        <p> 
+          <strong>About him</strong>
+          <br>
+          He is last evolution of Charmander. And one of the bests pokemons ever.
+        </p> 
+		<p> He can win mainly against plants.</p>
+        <p> 
+          <strong>DATA</strong>
+          <br>
+          Height	1.7 m (5′07″) Weight	90.5 kg (199.5 lbs)
+        </p> 
+		
+        <input id="submit" class="read" type="submit" name="submit" value="read more"></input>
+      </div>
+
+      <div class="moreStory">
+        <p id="a1">  Other pokemons   </p>  
+          <img id="" class="thumbnail" src="img/bulbasaur.jpg"  style="alt:; "></img>  
+          <img id="" class="thumbnail" src="img/squirtle.jpg"   style=" alt:  "></img> 
+          <img id="" class="thumbnail" src="img/pikachu.jpg"  style="alt:; "></img>  
+      </div>
+
+      <div class="tellStory">
+        <p id="a1">  Talk to me! </p>    
+        <form id="form" method="POST" name="contactform"  action="send_form_email2.php">
+          <input id="input"    type="text" name="name" placeholder="What's your name?" size="30.5"></input>
+          <br>
+          <input id="input" class="lastInput" type="text"     name="story" class='required' placeholder="What's your favorite pokemon?" size="30"></input>
+          <br>  
+          <input id="submit" class="submit" type="submit" name="submit" value="submit"></input>
+          <br>
+        </form> 
+      </div>  
+    </div> 
+  </body>
+</html>
